@@ -7,8 +7,6 @@
     </style>
 </head>
 
-
-
 <body>
     <script>
         const obj = {
@@ -20,45 +18,41 @@
             'f': ''
         }
 
-
         const my_table = document.createElement('table')
-
+        
         const name = document.createElement('th')
         name.append('Name');
+        my_table.append(name)
         name.onclick = () => sortTable(0)
-
+        
         const id = document.createElement('th')
         id.append('id');
-        id.onclick = () => sortTable(1)
-
-        my_table.append(name)
         my_table.append(id)
-
+        id.onclick = () => sortTable(1)
+  
         for (let i in obj) {
-
             const tr = my_table.insertRow()
             tr.insertCell().append(i)
             tr.insertCell().append(obj[i])
-
         }
-
+        
         document.body.append(my_table)
-
+        
         function sortTable(n) {
+        //Пожалуй, стоит копирайт указать.
+        //Безусловно, могу объяснить что в этой ф-ии происходит 
+        //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sort_table_desc
+        
             let rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
             switching = true;
             dir = "asc";
-
             while (switching) {
                 switching = false;
                 rows = document.getElementsByTagName("tr");
-
                 for (i = 0; i < (rows.length - 1); i++) {
-
                     shouldSwitch = false;
                     x = rows[i].getElementsByTagName("TD")[n];
                     y = rows[i + 1].getElementsByTagName("TD")[n];
-
                     if (dir == "asc") {
                         if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
                             shouldSwitch = true;

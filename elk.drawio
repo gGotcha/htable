@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T14:46:40.707Z" agent="5.0 (Windows)" version="14.8.3" etag="MrEjtl25HeuhoEhSwZsX" type="github"><diagram id="F6mlxFhpWpoyT0YMfylB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-15T14:15:49.133Z" agent="5.0 (Windows)" etag="tno6ON2YVCNV94GvtmRP" version="14.8.3" type="github">
+  <diagram id="F6mlxFhpWpoyT0YMfylB" name="Page-1">
+    <mxGraphModel dx="1206" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CR1mePzTk31dceCr5TiA-14" value="данные из базы" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-19" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="645" y="810" width="110" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-25" value="rest" style="shape=singleArrow;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="65" y="380" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-26" value="БД" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-27" value="коннектор к&lt;br&gt;БД" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-45" value="БД" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="245" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-47" value="мапа/json &lt;br&gt;в который сложим" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-48" value="данные из базы" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-49" value="мапа/json &lt;br&gt;в который сложим" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="55" y="290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CR1mePzTk31dceCr5TiA-50" value="rest" style="shape=singleArrow;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="750" y="245" width="70" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
